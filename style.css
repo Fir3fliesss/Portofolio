@@ -1,0 +1,193 @@
+/* Desktop Styles */
+
+/* CSS untuk desktop */
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+	/* CSS untuk mobile */
+	/* Atur ulang ukuran font untuk mobile */
+	body {
+	  font-size: 16px;
+	}
+	
+	/* Atur ulang tata letak elemen menggunakan flexbox */
+	.container {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+	
+	/* Atur ulang margin pada elemen */
+	.element {
+	  margin: 10px 0;
+	}
+	
+	/* Atur ulang lebar gambar */
+	img {
+	  width: 100%;
+	}
+  }
+
+body {
+	background-color: #ddd;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+	position: relative;
+  }
+  
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+audio {
+	width: 20%;
+  }
+  
+  audio::-webkit-media-controls-panel {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  }
+  
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+	font-size: 10px;
+	font-family: monospace;
+  }
+  
+  audio::-webkit-media-controls-timeline {
+	height: 5px;
+	background-color: #f1f1f1;
+  }
+  
+  audio::-webkit-media-controls-timeline-track-piece {
+	background-color: #555;
+	border-radius: 5px;
+  }
+  
+  audio::-webkit-media-controls-timeline-thumb {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  }
+  
+.profile-name hr {
+	border: none;
+	border-top: 1px solid #ccc;
+	margin: 20px auto;
+	width: 100%;
+  }  
+
+.profile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.profile img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-right: 30px;
+}
+
+.profile-name {
+	text-align: center;
+}
+
+.profile-name h1 {
+	font-size: 20px;
+	margin: 20px 0 0 0;
+  }
+  
+  .profile-name p {
+	font-size: 15px;
+	margin: 20px 0 0 0;
+	text-align: left;
+  }  
+
+  .social-media li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5em;
+  }
+  
+  .social-media li a {
+	margin-left: 0.5em;
+  }
+  
+  .social-media img {
+	height: 50px;
+	width: 50px;
+	margin-right: 0.5em;
+  }  
+  .social-media h3 {
+	font-size: 13px;
+  }
+
+  .social-media li a {
+    font-size: 11px;
+}
+
+h1 {
+	color: #333333;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+p {
+	color: #666666;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px auto;
+	width: 80%;
+}
+
+h2 {
+	color: #333333;
+	font-size: 24px;
+	margin-top: px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	margin: 0 10px;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	transition: color 0.3s ease-in-out;
+}
+
+footer p {
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }  
+
+a:hover {
+	color: #FF5733;
+}
